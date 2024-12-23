@@ -1,4 +1,4 @@
-use crate::components::{counter_btn::Button, navbar::Navbar};
+use crate::components::{counter_btn::Button, navbar::Navbar, hero::Hero};
 use leptos::*;
 
 /// Default Home Page
@@ -27,6 +27,7 @@ pub fn Home() -> impl IntoView {
             <div class="container">
 
                 <Navbar />
+                <Hero/>
 
             </div>
         </ErrorBoundary>
